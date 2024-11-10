@@ -1,0 +1,30 @@
+/* css for the main page */
+
+h1{
+    color: #8117e4; 
+    background-color: rgb(165, 221, 240);
+}
+
+#intro {
+    border: solid rgb(25, 164, 25)
+}
+
+#body2 {
+    border: dotted rgb(25, 164, 25)
+}
+
+#moreme {
+    background-color: rgb(224, 210, 243);
+}
+
+#projects {
+    background-color: rgb(224, 210, 243);
+}
+
+/* css for the who am I page */
+
+#me {
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 110, 110);
+}
+
