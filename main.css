@@ -37,6 +37,15 @@ h1{
   color: rgb(0, 0, 0);
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+
 /* css for the who am I page */
 
 #me {
@@ -48,6 +57,13 @@ table {
     border-collapse: collapse;
 }
 
+table {
+    width: 50%;
+  }
+  
+  th {
+    height: 70px;
+  }
 
 #li {
     background-color: rgb(87, 193, 223);
@@ -63,6 +79,10 @@ table {
     
 }
 
+div {
+    column-count: 3;
+  }
+
 /* css for projects page */
 
 #pastprojects {
@@ -73,4 +93,8 @@ table {
   img {
     max-width: 100%;
     height: auto;
+  }
+
+  img {
+    border-radius: 8px;
   }
