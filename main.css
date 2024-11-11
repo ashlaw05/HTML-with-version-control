@@ -76,12 +76,14 @@ table {
 
 #ul {
     background-color: rgb(87, 193, 223);
-    
+    column-count: 2;
+    padding:1em;
 }
 
-div {
-    column-count: 3;
-  }
+media (width > 320px) 
+    nav ul {
+        flex-direction: column;
+    }
 
 /* css for projects page */
 
@@ -92,7 +94,7 @@ div {
   
   img {
     max-width: 100%;
-    height: auto;
+    height: auto;s
   }
 
   img {
