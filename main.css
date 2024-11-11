@@ -3,22 +3,38 @@
 h1{
     color: #8117e4; 
     background-color: rgb(165, 221, 240);
+    font-family: cursive;
 }
 
 #intro {
-    border: solid rgb(25, 164, 25)
+    border: solid rgb(25, 164, 25);
 }
 
 #body2 {
-    border: dotted rgb(25, 164, 25)
+    border: dotted rgb(25, 164, 25);
 }
 
 #moreme {
     background-color: rgb(224, 210, 243);
+    a:hover {
+        background-color: yellow;
+    }
+
 }
 
 #projects {
     background-color: rgb(224, 210, 243);
+    a:hover {
+        background-color: yellow;
+    }
+}
+
+
+#footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(165, 221, 240);
+  color: rgb(0, 0, 0);
 }
 
 /* css for the who am I page */
@@ -27,6 +43,11 @@ h1{
     color: rgb(255, 255, 255);
     background-color: rgb(27, 110, 110);
 }
+
+table {
+    border-collapse: collapse;
+}
+
 
 #li {
     background-color: rgb(87, 193, 223);
@@ -39,6 +60,17 @@ h1{
 
 #ul {
     background-color: rgb(87, 193, 223);
+    
 }
 
 /* css for projects page */
+
+#pastprojects {
+    color: rgb(255, 250, 250);
+    background-color: rgb(193, 144, 231);
+}
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
