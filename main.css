@@ -80,7 +80,7 @@ table {
     padding:1em;
 }
 
-media (width > 320px) 
+media {width > 320px};
     nav ul {
         flex-direction: column;
     }
@@ -94,9 +94,22 @@ media (width > 320px)
   
   img {
     max-width: 100%;
-    height: auto;s
+    height: auto;
   }
 
   img {
     border-radius: 8px;
   }
+
+  button {
+    background-color: #4c4faf;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #363878;
+}
