@@ -33,17 +33,17 @@ console.log(greetingMessage);
 };
 
 
-const btn = document.getElementById("btn-alert");
-        btn.addEventListener("click", function() {
+const button = document.getElementById("btn-alert");
+        button.addEventListener("click", function() {
             alert("Button was clicked!");
         });
 
-        btn.addEventListener("mouseenter", function() {
-            btn.textContent = "Mouse Over Me!";
+        button.addEventListener("mouseenter", function() {
+            button.textContent = "Mouse Over Me!";
         });
 
-        btn.addEventListener("mouseleave", function() {
-            btn.textContent = "Click Me!";
+        button.addEventListener("mouseleave", function() {
+            button.textContent = "Click Me!";
         });
 
 
