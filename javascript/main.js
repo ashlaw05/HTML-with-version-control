@@ -33,11 +33,18 @@ console.log(greetingMessage);
 };
 
 
-
 const button = document.getElementById('btn-alert');
-button.addEventListener('click', function() {
-    alert('Button was clicked!');
-});
+        button.addEventListener('click', function() {
+            alert('Button was clicked!');
+        });
+
+        button.addEventListener('mouseover', function() {
+            button.textContent = 'Mouse Over Me!';
+        });
+
+        button.addEventListener('mouseout', function() {
+            button.textContent = 'Click Me!';
+        });
 
 
 
