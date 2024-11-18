@@ -1,4 +1,9 @@
+// footer code
 
+const currentYear = new Date().getFullYear();
+const d = new Date();
+const yearElement = document.getElementById("footerYear").textContent = currentYear;
+console.log(d);
 
 
 // date code
@@ -12,13 +17,13 @@ window.onload = function() {
 
 
     if (currentTime >= 5 && currentTime < 12) {
-        greetingMessage = "Morning sunshine!";
+        greetingMessage = "Good morning!";
         greetingStyle = "morning"; 
     } else if (currentTime >= 12 && currentTime < 18) {
-        greetingMessage = "Afternoon my friend!";
+        greetingMessage = "Afternoon!";
         greetingStyle = "afternoon"; 
     } else {
-        greetingMessage = "Evening!";
+        greetingMessage = "Good Eveneing!";
         greetingStyle = "evening"; 
     }
 console.log(greetingMessage);
@@ -28,27 +33,28 @@ console.log(greetingMessage);
 };
 
 
-// Alert & Hover Button
-const btn = document.getElementById("btn-alert");
-btn.addEventListener("click", function () {
-    alert("Why can't you hear a pterodactyl going to the bathroom? Because the P is silent.");
-    console.log('clicked');
-}); btn.addEventListener("mouseenter", function () {
-    btn.textContent = "If... you... DARE!";
-}); btn.addEventListener("mouseleave", function () {
-    btn.textContent = "Click here to smile";
+
+const button = document.getElementById('btn-alert');
+button.addEventListener('click', function() {
+    alert('Button was clicked!');
 });
 
-// loop code
-for (let i = initialValue; i <= stopValue; i = i + 1) {
-    // create a new <li> element with the createElement() document method
-    // (your code here)
-    // set the text content of the new <li> element
-    listItem.textContent = 'text';
-    // append the <li> element to your ordered list
-    // (your code here)
-  }
 
+
+// loop code
+
+window.onload = function () {
+    const ol = document.getElementById("numbers");
+    for (let i = 1; i <= 12; i++) {
+        const li = document.createElement("li");
+        if (i % 2 === 0) {
+            li.textContent = `Even`;
+        } else {
+            li.textContent = `Odd`;
+        }
+        ol.appendChild(li);
+    }
+    }
 
   
 
