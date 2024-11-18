@@ -32,7 +32,7 @@ console.log(greetingMessage);
     greetingElement.className = greetingStyle;
 };
 
-MContentLoaded = function () {
+window.onload = function () {
 const button = document.getElementById("btn-alert");
 console.log(btn)
         button.addEventListener("click", function() {
