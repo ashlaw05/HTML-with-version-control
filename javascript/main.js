@@ -23,7 +23,7 @@ window.onload = function() {
         greetingMessage = "Afternoon!";
         greetingStyle = "afternoon"; 
     } else {
-        greetingMessage = "Good Eveneing!";
+        greetingMessage = "Good Evening!";
         greetingStyle = "evening"; 
     }
 console.log(greetingMessage);
