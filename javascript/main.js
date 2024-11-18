@@ -32,7 +32,7 @@ console.log(greetingMessage);
     greetingElement.className = greetingStyle;
 };
 
-
+window.onload = function () {
 const button = document.getElementById("btn-alert");
         button.addEventListener("click", function() {
             alert("Button was clicked!");
@@ -44,7 +44,7 @@ const button = document.getElementById("btn-alert");
 
         button.addEventListener("mouseleave", function() {
             button.textContent = "Click Me!";
-        });
+        })};
 
 
 
