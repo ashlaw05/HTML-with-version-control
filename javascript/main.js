@@ -33,18 +33,20 @@ console.log(greetingMessage);
 };
 
 
-const button = document.getElementById('btn-alert');
-        button.addEventListener('click', function() {
-            alert('Button was clicked!');
+const btn = document.getElementById("btn-alert");
+        btn.addEventListener("click", function() {
+            alert("Button was clicked!");
         });
 
-        button.addEventListener('mouseover', function() {
-            button.textContent = 'Mouse Over Me!';
+        btn.addEventListener("mouseenter", function() {
+            btn.textContent = "Mouse Over Me!";
         });
 
-        button.addEventListener('mouseout', function() {
-            button.textContent = 'Click Me!';
+        btn.addEventListener("mouseleave", function() {
+            btn.textContent = "Click Me!";
         });
+
+
 
 
 
