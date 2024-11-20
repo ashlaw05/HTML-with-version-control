@@ -6,50 +6,17 @@ const yearElement = document.getElementById("footerYear").textContent = currentY
 console.log(d);
 
 
-// date code
+// date/button code
 
-window.onload = function() {
-    const greetingElement = document.getElementById("greeting");
-    const currentTime = new Date().getHours(); 
+let popup = document.getElementById("popup");
 
-    let greetingMessage = "";
-    let greetingStyle = "";
+function openpopup(){
+    popup.classList.add("open-popup");
+}
 
-
-    if (currentTime >= 5 && currentTime < 12) {
-        greetingMessage = "Good morning!";
-        greetingStyle = "morning"; 
-    } else if (currentTime >= 12 && currentTime < 18) {
-        greetingMessage = "Afternoon!";
-        greetingStyle = "afternoon"; 
-    } else {
-        greetingMessage = "Good Evening!";
-        greetingStyle = "evening"; 
-    }
-console.log(greetingMessage);
-
-    greetingElement.textContent = greetingMessage;
-    greetingElement.className = greetingStyle;
-};
-
-window.onload = function () {
-const button = document.getElementById("btn-alert");
-console.log(btn)
-        button.addEventListener("click", function() {
-            alert("Button was clicked!");
-        });
-
-        button.addEventListener("mouseenter", function() {
-            button.textContent = "Mouse Over Me!";
-        });
-
-        button.addEventListener("mouseleave", function() {
-            button.textContent = "Click Me!";
-        })};
-
-
-
-
+function closepopup(){
+    popup.classList.remove("open-popup");
+}
 
 // loop code
 
