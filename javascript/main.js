@@ -59,14 +59,14 @@ window.onload = function () {
     for (let i = 1; i <= 12; i++) {
         const li = document.createElement("li");
         if (i % 2 === 0) {
-            listItem.textContent = `Even`;
+            li.textContent = 'even';
         } else {
-            listItem.textContent = `Odd`;
+            li.textContent = 'odd';
         }
         ol.appendChild(li);
     }
-    }
-
+}
+console.log('lists');
   
 
   
